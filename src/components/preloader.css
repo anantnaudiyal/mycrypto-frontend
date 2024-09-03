@@ -1,0 +1,47 @@
+.preloader::-webkit-scrollbar {
+    width: 0px;
+}
+.preloader{
+    height: 100vh;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 55;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+
+}
+.subloader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 300px;
+    font-size: 40px;
+    font-weight: 800;
+    
+    color: #0044ff;
+}
+.texts-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 800;
+    overflow: hidden;
+    color: #fff;
+}
